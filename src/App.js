@@ -55,7 +55,7 @@ function App() {
                         {" "}
                         <img
                             style={{
-                                width: "10vh",
+                                width: "90px",
                             }}
                             src={require("./assets/intelistyle.png")}
                         ></img>{" "}
