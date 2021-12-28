@@ -10,8 +10,8 @@ const MainGrid = styled(Grid)({
     justifyContent: "center",
     marginTop: "20px",
     flexDirection: "column",
-    maxHeight: "600px",
-    maxWidth: "350px",
+    maxHeight: "500px",
+    maxWidth: "320px",
     "&:hover": {
         boxShadow: "8px -3px teal",
         textShadow: "1px 1px",
@@ -25,7 +25,7 @@ const ImageGrid = styled(Grid)({
     height: "100%",
     justifyContent: "center",
     maxHeight: "100%",
-    maxWidth: "350px",
+    maxWidth: "320px",
 })
 
 const ProductDetailGrid = styled(Grid)({
@@ -57,7 +57,7 @@ export default function SearchItem(props) {
                             <img
                                 style={{
                                     top: 0,
-                                    maxHeight: "500px",
+                                    maxHeight: "420px",
                                     maxWidth: "350px",
                                     borderRadius: "10px",
                                     width: "100%",
