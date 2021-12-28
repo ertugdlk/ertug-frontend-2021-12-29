@@ -61,9 +61,9 @@ function App() {
                         ></img>{" "}
                         <span
                             style={{
-                                marginTop: "35px",
+                                marginTop: "34px",
                                 marginLeft: "5px",
-                                fontSize: "22px",
+                                fontSize: "21px",
                             }}
                         >
                             Search
