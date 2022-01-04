@@ -52,7 +52,10 @@ export default function SearchItems(props) {
             hasMore={true}
         >
             <ItemGrid>{handleData()}</ItemGrid>
-            {loader ? <h4>Loading...</h4> : handleMessage()}
+            <div style={{ display: "flex", justifyContent: "center" }}>
+                {" "}
+                {loader ? <h4>Loading...</h4> : handleMessage()}
+            </div>
         </InfiniteScroll>
     )
 }
