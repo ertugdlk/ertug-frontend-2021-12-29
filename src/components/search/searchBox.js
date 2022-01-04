@@ -60,6 +60,7 @@ export default function SearchBox(props) {
         const data_ = await SearchService.getResults(searchText)
         if (data_.length == 0) {
             setErrorText("No Results")
+
             setAlert(true)
             return
         }
